@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>#31DaysChallenge Feedback Survey Form</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+
+<body>
+
+  <div id="header">
+    <h1 id="title">#31DaysChallenge Feedback Survey Form</h1>
+    <p id="description">How are you finding the #100DaysChallenge so far?</p>
+  </div>
+
+  <form id="survey-form">
+    <table>
+      <tr>
+        <td><label for="name" class="leftcol" id="name-label">What is your name?</label></td>
+        <td><input type="text" class="rightcol" name="name" id="name" placeholder="Aku Aku" required></td>
+      </tr>
+      <tr>
+        <td><label for="email" class="leftcol" id="email-label">What is your email address?</label></td>
+        <td><input type="email" name="email" id="email" class="rightcol" placeholder="akuaku@aku.aku" required></td>
+      </tr>
+      <tr>
+        <td><label for="number" id="number-label">How many days through the #31DaysChallenge are you?</label></td>
+        <td><input type="number" name="number" id="number"  min="18" max="99" placeholder="18"></td>
+      </tr>
+      <tr>
+        <td><label for="dropdown" id="dropdown-label">What is your rating for this challenge, out of ten?</label></td>
+        <td>
+          <select name="dropdown" id="dropdown" name="dropdown">
+            <option value="1" selected="">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>Are you:</td>
+        <td>
+          <input type="radio" name="gender" value="male" id="male">
+          <label for="male" name="gender">Male</label><br>
+          <input type="radio" name="gender" value="female" id="female">
+          <label for="female" name="gender">Female</label><br>
+          <input type="radio" name="gender" value="other" id="other">
+          <label for="other" name="gender">Other</label><br>
+          <input type="radio" name="gender" value="prefernottosay" id="prefernottosay">
+          <label for="prefernottosay" name="gender">Prefer Not To Say</label>
+        </td>
+      </tr>
+      <tr>
+        <td>What are your reasons for starting the #31DaysChallenge?</td>
+        <td>
+          <label><input type="checkbox" name="reason" value="1">Interested in programming</label><br>
+          <label><input type="checkbox" name="reason" value="2">To get a programming job</label><br>
+          <label><input type="checkbox" name="reason" value="3">To improve your logic</label><br>
+          <label><input type="checkbox" name="reason" value="4">To earn more money</label><br>
+          <label><input type="checkbox" name="reason" value="5">To become a freelancer</label><br>
+          <label><input type="checkbox" name="reason" value="6">To improve the world</label>
+        </td>
+      </tr>
+      <tr>
+        <td>Do you have any further comments? If so, please enter them here:</td>
+        <td><textarea name="textarea" id="textarea" rows="10" cols="50"></textarea></td>
+      </tr>
+    </table>
+    <input type="submit" name="submit" id="submit" value="SUBMIT">
+  </form>
+
+</body>
+
+</html>
