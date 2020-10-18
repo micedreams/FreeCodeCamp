@@ -1,0 +1,68 @@
+
+/*---------- welcome-section ----------*/
+
+/* Horizontal rule formatting */
+#welcome-section hr {
+  background-color: white;
+  height: 0.1rem
+}
+
+
+/* welcome-section image formatting */
+.rounded-circle {
+  height: 50%;
+  width: 50%;
+  border: 0.3rem solid #E9F1DF;
+}
+
+/* welcome-section padding & colour */
+.jumbotron {
+  padding-bottom: 2rem;
+  margin-bottom: 0.3rem;
+  background-color: #F2385A;
+}
+
+/* welcome-section heading font size */
+.jumbotron-heading {
+  font-weight: 300;
+}
+
+/* welcome-section container width */
+.jumbotron .container {
+  max-width: 40rem;
+}
+
+/* welcome-section container height */
+#welcome-section {
+  height: 100vh;
+}
+
+/* welcome-section margin top*/
+#welcome-sectionimg {
+  margin-top: 50px;
+}
+
+
+/* Red/Pink */
+#colour1 {
+  background-color: #F2385A;
+}
+
+
+/* White(ish) */
+#colour3 {
+  background-color: #E9F1DF;
+}
+
+
+/* Github icon - normal */
+.fa-github {
+  color: #E9F1DF;
+}
+
+/* Github icon - hover */
+.fa-github:hover {
+  color:  #F2385Ab4;
+}
+
+
